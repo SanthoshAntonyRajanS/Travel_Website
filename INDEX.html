@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRAVEL TREASURES</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<body>
+  </head>
+  <header>
+    <h1>TRAVEL TREASURES</h1>
+    <nav class="navbar">
+      <p class="navbar-link"><a href="INDEX.html">Home</a></p>
+      <p class="navbar-link"><a href="book.html">Booking</a></p>
+      <p class="navbar-link"><a href="packages.html">Packages</a></p>
+      <p class="navbar-link"><a href="contact.html">Contact</a></p>
+
+      <div class="navbar-icons">
+
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+      <div class="navbar-menu-toggle" onclick="showNavbar()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <div class="side-navbar">
+      <p style="text-align: right;" onclick="closeNavbar()">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+      <div class="side-navbar-links">
+
+        <p class="side-navbar-link"><a href="INDEX.html">Home</a></p>
+        <p class="side-navbar-link"><a href="book.html">Booking</a></p>
+        <p class="side-navbar-link"><a href="packages.html">Packages</a></p>
+        <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+      </div>
+    </div>
+
+
+  </header>
+
+  <div class="login-form-container">
+    <i class="fa-solid fa-xmark" id="form-close"></i>
+
+    <form action="">
+      <h3>Login</h3>
+      <input type="email" class="box" placeholder="enter your email">
+      <input type="password" class="box" placeholder="enter your password">
+      <input type="submit" value="login now" class="btn">
+      <input type="checkbox" id="remember">
+      <label for="remember">remember me</label>
+      <p>Forget Password <a href="">click here</a></p>
+      <p>Don't have an account <a href="">Register Now</a></p>
+    </form>
+  </div>
+
+  <section class="home" id="home">
+    <div class="content">
+
+      <h2>Escape the ordinary, embrace the journey</h2>
+      <h1>Adventure Awaits.Let's Find Out</h1>
+      <a href="" class="home-button">Discover More</button></a>
+    </div>
+
+
+    <div class="controls">
+      <span class="vid-btn active" data-src="V1.mp4"></span>
+      <span class="vid-btn" data-src="V2.mp4"></span>
+      <span class="vid-btn" data-src="V3.mp4"></span>
+      <span class="vid-btn" data-src="V4.mp4"></span>
+      <span class="vid-btn" data-src="V5.mp4"></span>
+      <span class="vid-btn" data-src="V6.mp4"></span>
+    </div>
+
+    <div class="video-container">
+      <video src="V1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+  </section>
+  <div>
+    <section class="services" id="services">
+
+      <h1 class="heading">
+        SERVICES
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fa-solid fa-hotel"></i>
+          <h3>Afforable Hotels</h3>
+          <p>Comfortable and economical accommodations offering essential amenities and services for travelers on a
+            budget</p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-burger"></i>
+          <h3>Foods and Drinks</h3>
+          <p>A diverse array of culinary delights and beverages that tantalize the taste buds and offer cultural
+            experiences</p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-user-shield"></i>
+          <h3>Safety Guides</h3>
+          <p>Comprehensive resources providing essential safety information, protocols, and best practices for various
+            environments</p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-plane"></i>
+          <h3>Fastest Travel</h3>
+          <p>Efficient travel options that minimize transit time, offering rapid and convenient transportation solutions
+          </p>
+        </div>
+      </div>
+
+  </div>
+
+  </section>
+
+  <div class="about">
+    <h1>About Us:</h1>
+    <p>Welcome to Travel Treasures! Established in 2005, we specialize in curating unforgettable luxury travel
+      experiences for discerning explorers.Our services range from bespoke luxury getaways to budget-friendly family
+      vacations.We handle everything from flights and accommodations to unique local experiences.we believe in responsible
+      tourism. We strive to minimize our environmental impact and create positive change in the destinations we
+      visit.Get in touch with our team at contact@traveltreasures.com or call us at <b>+91-1234567890</b></p>
+  </div>
+
+  <section class="best-packages">
+    <h1>Best Packages:</h1>
+    <div class="box-container" id="box-container">
+      <div class="box">
+        <img src="maldives.jpg" alt="">
+        <div class="content">
+          <h3><i class="fa-solid fa-map-pin"></i> Maldives</h3>
+          <p>Overwater bungalows, turquoise lagoons, and coral reefs. Ideal for relaxation, water sports, and romantic getaways</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="price">$120.00 <span>$150.00</span></div>
+          <a href="#" class="btn">Book Now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="italy.jpg" alt="">
+        <div class="content">
+          <h3><i class="fa-solid fa-map-pin"></i> Rome, Italy</h3>
+          <p>Eternal City, steeped in history, art, and architecture. Visit the Colosseum, Vatican City, and indulge in delicious Italian cuisine</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="price">$150.00 <span>$180.00</span></div>
+          <a href="#" class="btn">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="footer">
+    <div class="footer-content">
+      <h2>TRAVEL TREASURES</h2>
+      <p>Welcome To Travel Treasures!</p>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <p>www.traveltreasures.com</p>
+    </div>
+  </div>
+
+
+
+  <script>
+
+    var sidenav = document.querySelector(".side-navbar")
+    function showNavbar() {
+      sidenav.style.left = "0";
+    }
+    function closeNavbar() {
+      sidenav.style.left = "-60%";
+    }
+  </script>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="script.js">
+  </script>
+</body>
+
+</html>
